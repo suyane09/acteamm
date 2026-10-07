@@ -389,7 +389,7 @@ header{animation:up .8s both}
 <div class="fix"><a class="btn" href="#aplicar">Aplicar para a ACTEAM</a></div>
 
 <script>
-const WA="558999420975888"; // WhatsApp da ACTEAM (confirme o número)
+const WA="5589994209758"; // WhatsApp da ACTEAM (confirme o número)
 const S=[...document.querySelectorAll('.q')],pb=document.getElementById('pb'),cn=document.getElementById('cn'),nx=document.getElementById('nx'),bk=document.getElementById('bk'),er=document.getElementById('er');
 let i=0;
 function show(n){i=n;S.forEach((s,k)=>s.classList.toggle('on',k===n));pb.style.width=((n+1)/9*100)+'%';cn.textContent='Pergunta '+(n+1)+' de 9';bk.hidden=n===0;nx.textContent=n===8?'Enviar pelo WhatsApp':'Próxima';er.textContent='';const f=S[n].querySelector('input[type=text],textarea');if(f&&n)f.focus()}
